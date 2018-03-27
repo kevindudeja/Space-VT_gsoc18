@@ -1,0 +1,23 @@
+{% extends "base_generic.html" %}
+<script type="text/javascript" src="http://kozea.github.com/pygal.js/latest/pygal-tooltips.min.js"></script>
+{% block content %}
+<h1>GSOC'18 Demo Task #1: Disturbance Storm Index</h1>
+			
+  {{ cht_nov | safe }}
+  
+  <h3>The hourly readings of November 2013:</h3>
+  <ol>
+	<li> {{ d1 }} </li>
+	<li> {{ d2 }} </li>
+	<li> {{ d3 }} </li>
+	<li> {{ d4 }} </li>
+	<li> {{ d5 }} </li>
+	<li> {{ d6 }} </li>
+	<li> {{ d7 }} </li>
+	<li> {{ d8 }} </li>
+	<li> {{ d9 }} </li>
+	<li> {{ d10 }} </li>
+  </ol>
+	
+
+{% endblock %}
