@@ -6,7 +6,7 @@ Documentation for the work that I had done under my GSoC project for Space@VT
 $ python manage.py runserver
 ```
 ### How the Index page looks like
-![index page](/images/1.PNG)
+![index page](/1.PNG)
 
 ### Plotting DST Index of December 2013
-![december_dst](/images/2.PNG)
+![december_dst](/2.PNG)
